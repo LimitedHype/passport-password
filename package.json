@@ -1,5 +1,5 @@
 {
-  "name": "passport",
+  "name": "passport-password",
   "version": "0.5.0",
   "description": "Simple, unobtrusive authentication for Node.js.",
   "keywords": [
@@ -9,23 +9,6 @@
     "authn",
     "authentication"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "homepage": "http://passportjs.org/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/passport.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/passport/issues"
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/jaredhanson"
-  },
   "license": "MIT",
   "licenses": [
     {
@@ -35,7 +18,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "1.x.x",
+    "passport-strategy": "^1.0.0",
     "pause": "0.0.1"
   },
   "devDependencies": {
